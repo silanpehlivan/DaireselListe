@@ -97,6 +97,11 @@ Katkılarınız memnuniyetle karşılanır. Hata bildirimi veya yeni özellik ö
 
 ---
 
-## 👨‍💻 Geliştirici
+## 📜 Lisans
 
-⭐ **Şilan Pehlivan**
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+## 👩‍💻 Geliştirici
+
+Şilan Pehlivan
+
