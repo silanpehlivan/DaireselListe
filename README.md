@@ -1,19 +1,102 @@
-🔄 Dairesel Yapılar (Circular Linked Lists)
+# 🔄 C# Dairesel Bağlı Liste (Circular Linked List) Implementasyonu
 
-Bu proje, veri yapılarının temel taşlarından olan dairesel bağlı listelerin (Circular Linked List) mantığını ve bellekteki işleyişini uygulamalı olarak göstermek amacıyla geliştirilmiştir.
+Bu proje, veri yapılarının temel konularından biri olan **dairesel bağlı liste (Circular Linked List)** yapısının C# dilinde nasıl oluşturulduğunu ve temel işlemlerinin nasıl gerçekleştirildiğini göstermektedir.
 
-⚙️ Teknik Detaylar
+---
 
-Dil: C#
+## ⚙️ Özellikler
 
-Veri Yapısı: Circular Linked List (Dairesel Bağlı Liste)
+- 🔁 **Dairesel Bağlı Liste:** Son düğümün `next` işaretçisinin ilk düğümü gösterdiği yapı
+- 🧱 **Düğüm Yapısı:** Her düğüm `Data` (int) ve `Next` (Node) içerir
+- ➕ **Ekleme İşlemleri:**
+  - Başa ekleme
+  - Sona ekleme
+  - Belirli bir sıraya ekleme
+- ➖ **Silme İşlemleri:**
+  - Baştan silme
+  - Sondan silme
+  - Belirli düğümü silme
+- 👀 **Görüntüleme:** Listenin tüm elemanlarını dolaşarak ekrana yazdırma
 
-Yapı: Düğümlerin (Node) birbirine dairesel bir formda bağlanması (Son düğümün 'next' işaretçisinin ilk düğümü göstermesi).
+---
 
-🎯 Kazanımlar
+## 🛠️ Teknik Detaylar
 
-Bellek Yönetimi: Dinamik bellek üzerinde düğüm oluşturma ve işaretçi (pointer) takibi.
+- 💻 **Dil:** C#
+- 🧠 **Veri Yapısı:** Dairesel Bağlı Liste (Circular Linked List)
+- 🔗 **Mantık:** Son düğümün ilk düğüme bağlanmasıyla oluşan döngüsel yapı
 
-Algoritmik İşlemler: Dairesel yapı içerisinde veri ekleme, silme ve liste üzerinde sonsuz döngüye girmeden gezinme (traversal) algoritmaları.
+---
 
-Kullanım Senaryoları: İşletim sistemlerinde işlemci zamanlaması (Round Robin) gibi dairesel döngü gerektiren senaryoların temel mantığı.
+## 🎯 Kazanımlar
+
+- 🧠 Dinamik veri yapılarıyla çalışma becerisi
+- 🔁 Dairesel yapı mantığını öğrenme
+- ⚙️ Ekleme ve silme algoritmalarının uygulanması
+- 🚦 Traversal (döngüsel gezinme) mantığını kavrama
+- 🧩 Round Robin gibi gerçek sistem mantıklarına giriş
+
+---
+
+## 🚀 Kurulum
+
+1. 📥 Projeyi klonlayın veya ZIP olarak indirin  
+2. 📂 `DaireselListe-master` klasörüne gidin  
+3. 🧾 Visual Studio ile `.sln` dosyasını açın  
+4. ▶️ Projeyi derleyip çalıştırın  
+
+---
+
+## 🖥️ Kullanım
+
+Program çalıştırıldığında `Program.cs` dosyası üzerinden:
+
+- ➕ Listeye eleman ekleme işlemleri  
+- ➖ Silme işlemleri  
+- 👀 Listeyi görüntüleme işlemleri  
+
+adım adım konsol ekranında gösterilir.
+
+---
+
+## 🧱 Node Sınıfı
+
+Her düğüm:
+- 📦 `Data` (veri)
+- 🔗 `Next` (sonraki düğüm bağlantısı)
+
+---
+
+## 🔧 DaireselBağlantılıListe Sınıfı (Örnek İşlemler)
+
+- ➕ SonaEkle()
+- ➕ BaşaEkle()
+- ➕ ArayaEkle()
+- ➖ BaştanSil()
+- ➖ SondanSil()
+- ➖ BelirliDüğümSil()
+- 👀 Goruntule()
+
+---
+
+## 📁 Proje Yapısı
+
+- 📄 App.config  
+- 📄 LICENSE  
+- 🧱 Node.cs  
+- 🚀 Program.cs  
+- ⚙️ Ödev3.csproj  
+- 🧾 Ödev3.sln  
+- 📘 README.md  
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınız memnuniyetle karşılanır. Hata bildirimi veya yeni özellik önerileri için issue açabilir veya pull request gönderebilirsiniz.
+
+---
+
+## 👨‍💻 Geliştirici
+
+⭐ **Şilan Pehlivan**
