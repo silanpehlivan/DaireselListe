@@ -24,6 +24,19 @@ Dairesel bağlı listenin düğüm yapısını ve temel işlemlerini C# ile uygu
 
 C# · .NET
 
+## Teknik yaklaşım
+
+Düğüm bağlantıları dairesel listeyi oluşturur. Ekleme, silme ve gezinme işlemleri bağlantıların korunması üzerinden incelenir.
+
+## Kodu incelemeye başlayın
+
+- [Node.cs](Node.cs)
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Eğitim amaçlı veri yapısı uygulamasıdır; eş zamanlı erişim ve performans ölçümü kapsamına ilişkin bir iddia içermez.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
