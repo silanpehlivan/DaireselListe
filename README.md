@@ -2,17 +2,32 @@
 
 # Dairesel Bağlı Liste
 
-**Veri yapıları ve döngüsel bağlantılar**
+### Son düğüm yeniden başlangıca bağlanır.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![.NET](https://img.shields.io/badge/.NET-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![.NET](https://img.shields.io/badge/.NET-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Dairesel bağlı listenin düğüm yapısını ve temel işlemlerini C# ile uygulayan konsol projesi.
+
+**Veri yapıları ve döngüsel bağlantılar**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/DaireselListe/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Başa, sona ve araya eleman ekleme
+- **02** · Düğüm silme ve listeyi görüntüleme
+- **03** · Son düğümden ilk düğüme döngüsel bağlantı
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,21 +39,20 @@ Dairesel bağlı listenin düğüm yapısını ve temel işlemlerini C# ile uygu
 
 C# · .NET
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Düğüm bağlantıları dairesel listeyi oluşturur. Ekleme, silme ve gezinme işlemleri bağlantıların korunması üzerinden incelenir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Node.cs](Node.cs)
 - [Program.cs](Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Eğitim amaçlı veri yapısı uygulamasıdır; eş zamanlı erişim ve performans ölçümü kapsamına ilişkin bir iddia içermez.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, veri yapılarının temel konularından biri olan **dairesel bağlı liste (Circular Linked List)** yapısının C# dilinde nasıl oluşturulduğunu ve temel işlemlerinin nasıl gerçekleştirildiğini göstermektedir.
 
@@ -136,6 +150,8 @@ Her düğüm:
 Katkılarınız memnuniyetle karşılanır. Hata bildirimi veya yeni özellik önerileri için issue açabilir veya pull request gönderebilirsiniz.
 
 ---
+
+
 
 
 </details>
